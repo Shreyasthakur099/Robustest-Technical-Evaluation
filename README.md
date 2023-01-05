@@ -4,6 +4,7 @@ This repository contains Golang based task as a part of Robustest Technical Eval
 -> The Details about task is in the pdf file `Backend Assignemnt.pdf` 
 -> `account.json` file contains sample data to test the application.
 
+<br><br><br>
 ## How to run the application
 
 To start the application , open the directory in terminal and enter command `go run server.go`.
@@ -14,7 +15,7 @@ It will start the server at `PORT : 8080`
 
 -> API endpoints along with their Inputs/Outputs are shown below :
 
-
+<br><br><br><br>
 ### To check Balance of a User Account as Admin , Enter `http://localhost:8080/admin/checkBalance/` 
 
 * INPUT : 
@@ -27,11 +28,7 @@ OUTPUT :
 
 
 
-
-
-
-
-
+<br><br><br><br>
 ### To check Balance of a User Account as a User , Enter `http://localhost:8080/user/checkBalance/` 
 
 * INPUT :
@@ -44,7 +41,7 @@ OUTPUT :
 
 
 
-
+<br><br><br><br>
 ### To Send Money as a User , Enter `http://localhost:8080/user/sendMoney/` :
 
 
@@ -62,7 +59,7 @@ OUTPUT :
 
 
 
-
+<br><br><br><br>
 ### To Send Money as Admin , Enter `http://localhost:8080/admin/sendMoney/` :
 
 * INPUT : 
@@ -79,7 +76,7 @@ If the Sender Doesnt have Sufficient Balance , then Output will be :
 
 
 
-
+<br><br><br><br>
 ### Check Transactions as a User , Enter `http://localhost:8080/user/transactions/`
 
 [NOTE : In real application scenario , there will be no need to enter `UserId` manually as it will be automatically retrieved after Login(Authentication)]
@@ -94,7 +91,7 @@ If the Sender Doesnt have Sufficient Balance , then Output will be :
    ![image](https://user-images.githubusercontent.com/71756168/210744173-f4124d78-cda8-4c98-9071-b078ce8fe75e.png)
 
 
-
+<br><br><br><br>
 ### Check Transactions as a User , Enter `http://localhost:8080/admin/transactions/`
 
 * INTPUT : 
