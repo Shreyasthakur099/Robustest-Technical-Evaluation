@@ -1,18 +1,18 @@
 # Robustest-Technical-Evaluation
 This repository contains Golang based task as a part of Robustest Technical Evaluation round 2
 
--> The Details about task is in the pdf file `Backend Assignemnt.pdf` 
+-> The Details about task is in the pdf file `Backend Assignemnt.pdf` <br>
 -> `account.json` file contains sample data to test the application.
 
 <br><br><br>
 ## How to run the application
 
-To start the application , open the directory in terminal and enter command `go run server.go`.
+To start the application , open the directory in terminal and enter command `go run server.go`.<br>
 
-It will start the server at `PORT : 8080`
+It will start the server at `PORT : 8080`<br>
 
 -> Now , Use Postman(or any other tool) to run APIs
-
+<br>
 -> API endpoints along with their Inputs/Outputs are shown below :
 
 <br><br><br><br>
